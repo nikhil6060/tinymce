@@ -4,6 +4,7 @@
   "workspaces": [
     "modules/*"
   ],
+  "version": "1.0.0-nwh",
   "scripts": {
     "preinstall": "node -e \"if(process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('You must use Yarn to install, not NPM')\"",
     "postinstall": "patch-package",
@@ -93,5 +94,8 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.11.0"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
   }
 }

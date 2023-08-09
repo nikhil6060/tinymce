@@ -25,7 +25,7 @@ tinymce.init({
     // eslint-disable-next-line no-console
     console.log(blobInfo);
     setTimeout(() => {
-      success('https://www.google.com/logos/google.jpg');
+      success(blobInfo?.name());
     }, 5000);
   }),
   height: 600
